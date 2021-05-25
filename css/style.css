@@ -1,0 +1,189 @@
+
+/* css for header and 1st mob */
+#header{
+    margin-top: 90px;
+}
+
+.flex-header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#header img{
+    margin-left: 30px;
+}
+
+/* css for header button */
+#header .button{
+    height: 43px;
+    background-color: rgba(226, 226, 226, 0.87);
+    border: none;
+    padding: 0 20px;
+    border-radius: 30px;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;;
+    font-weight: 600;
+    margin-right: 190px;
+    margin-top: 7px;
+}
+#header .button:hover{
+    transform: scale(0.95);
+}
+
+
+
+/* 1st mob section */
+#first_mob_section{
+    margin-top: 80px;
+}
+#first_mob_section .container-1 img{
+    animation: slideInFromLeft 1s ease-in
+}
+#first_mob_section .container-2 .smalllogo{
+    height: 40px;
+    width: 120px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+#first_mob_section .container-2{
+    margin-top: 130px;
+    animation: fadeIn 1s ease-in;
+}
+.flex1{
+    display: flex;
+    gap: 180px;
+}
+
+
+
+/* css for 3 mobiles in row */
+#mob{
+    margin-top: 150px;
+}
+
+#mob .container-1-mob-1{
+    margin-top: 150px;
+}
+
+
+
+/* css for BTS section */
+#container-bts{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#container-bts .grid{
+    display: grid;
+    grid-template-columns: 450px 450px;
+    grid-column-gap: 180px;
+    margin-top: 50px;
+}
+
+#container-bts .first-guest, .second-guest{
+    text-align: center;
+}
+
+#container-bts .rectimg{
+    height: 400px;
+    width: 400px;
+    margin-bottom: 40px;
+}
+
+#container-bts .bts-heading{
+    color: var(--primary-color);
+    font-size: 35px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+#container-bts h1,h2{
+    color: var(--primary-color);
+    font-size: 27px;
+    font-weight: 600;
+}
+
+#container-bts p{
+    font-size: 19px;
+    margin-top: 20px;
+}
+
+#container-bts .btn{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 33px;
+    font-weight: 800;
+    border-radius: 16px;
+    text-decoration: underline;
+    padding: 20px 20px;
+    background-color: var(--primary-color)  ;
+}
+
+#container-bts .below-btn-text{
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    max-width: 900px;
+    margin: 0 auto;
+}
+#container-bts .play-store-images{
+    margin-top: 20px;
+}
+
+#container-bts .smalllogo{
+    width: 170px;
+    height: 50px;
+    margin-right: 30px;
+}
+
+
+
+/* css for footer */
+#footer{
+    background: #2d303d;
+    color: white;
+}
+#footer .grid{
+    padding-top: 49px;
+    display: grid;
+    grid-template-columns: auto auto auto auto 200px auto;
+}
+#footer .container{
+    max-width: 1250px;
+}
+
+#footer .footerlogo-1st-col h6{
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 13px;
+}
+#footer ul{
+    list-style-type: none;
+    line-height: 2rem;
+}
+#footer .download-5th-col .smalllogo{
+    height: 36px;
+    width: 110px;
+    margin-top: 15px;
+}
+#footer a{
+    text-decoration: none;
+    color: white;
+}
+#footer .bottom-links{
+    text-align: center;
+    padding-bottom: 30px;
+}
+#footer nav{   
+    font-size: 13px;
+    text-align: center;
+    /* margin-left: 400px; */
+}
+#footer nav a{
+    padding: 10px 10px;
+}
